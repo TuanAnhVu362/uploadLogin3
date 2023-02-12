@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    margin-bottom: 30px;
+}
+
+.heading h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.login3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.pic img {
+    width: 380px;
+    height: 190px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.form {
+    width: 380px;
+    height: 50vh;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: solid transparent 1px;
+    box-shadow: 0px 10px 20px 0px #999999;
+}
+
+.sign {
+    display: flex;
+}
+
+.topic p {
+    margin-left: 22px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.icon {
+    display: flex;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.fb i {
+    border-radius: 50%;
+    border: solid transparent 1px;
+    padding: 10px 13px;
+    background-color: transparent;
+    border: solid 0.5px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.twit i {
+    border-radius: 50%;
+    border: solid transparent 1px;
+    padding: 8px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: solid 0.5px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.dangky {
+    margin-top: 16px;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+}
+
+.user input {
+    width: 335px;
+    padding: 10px;
+    background-color: transparent;
+    border: solid 1px;
+    border-radius: 4px;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.pass input {
+    width: 335px;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 1px;
+    background-color: transparent;
+}
+
+.eye {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 9px;
+    opacity: 0.5;
+}
+
+#hide2 {
+    display: none;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.click input {
+    width: 335px;
+    padding: 10px;
+    background-color: rgb(49, 165, 49);
+    border-radius: 4px;
+    border: solid transparent 1px;
+    color: white;
+    cursor: pointer;
+}
+
+.click input:hover {
+    background-color: rgb(2, 107, 2);
+}
+
+.refor {
+    display: flex;
+    margin-top: 20px;
+}
+
+.check {
+    margin-left: 20px;
+}
+
+.rem {
+    margin-left: 10px;
+    color: rgb(49, 165, 49);
+}
+
+.for {
+    margin-left: 110px;
+}
+
+.for a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.other {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.choice a {
+    text-decoration: none;
+    color: rgb(49, 165, 49);
+    margin-left: 3px;
+}
+
+a:hover {
+    color: red;
+}
